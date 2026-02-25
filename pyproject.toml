@@ -4,7 +4,14 @@ version = "0.1.0"
 description = "langchain 学习"
 readme = "README.md"
 requires-python = ">=3.10.1"
-dependencies = []
+dependencies = [
+    "chromadb>=1.5.1",
+    "dashscope>=1.25.12",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "openai>=2.24.0",
+]
 
 [[tool.uv.index]]
 name = "tuna"
